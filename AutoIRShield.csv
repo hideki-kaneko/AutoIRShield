@@ -1,0 +1,17 @@
+Reference, Value, Footprint, Datasheet
+P1,Power,Socket_Arduino_Uno:Socket_Strip_Arduino_1x08,
+P2,Analog,Socket_Arduino_Uno:Socket_Strip_Arduino_1x06,
+P4,Digital,Socket_Arduino_Uno:Socket_Strip_Arduino_1x08,
+P3,Digital,Socket_Arduino_Uno:Socket_Strip_Arduino_1x10,
+D1,SID1k10CM,#MyFootPrints:SID1K10CM,~
+R1,75,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+Q1,2SK4017,#MyFootPrints:2SK4017,~
+R2,100,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+U1,ATD1602CPB,#MyFootPrints:ATD1602CPB,
+U2,RTC_DS3231,#MyFootPrints:RTC_DS3231_Vertical,
+R5,1K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+SW1,2MS1-T1-B4-VS2-Q-E-S,#MyFootPrints:Switch_2MST1B4VS2QES,
+R4,10K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+R3,10K,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,~
+SW2,EC12E2420801,#MyFootPrints:EC12E2420801,~
+U3,IRReceiver_OSRB38C9AA,#MyFootPrints:IRReceiver_OSRB38C9AA,

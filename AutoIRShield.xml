@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\Users\Hideki\Documents\Kicad\AutoIR\AutoIRShield\AutoIRShield\AutoIRShield.sch</source>
+    <date>2020/07/19 15:29:54</date>
+    <tool>Eeschema (5.1.6)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>lun. 30 mars 2015</date>
+        <source>AutoIRShield.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>Power</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x08</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D70129</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>Analog</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x06</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D70DD8</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>Digital</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x08</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D7164F</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>Digital</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x10</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D721E0</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>SID1k10CM</value>
+      <footprint>#MyFootPrints:SID1K10CM</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F030AF5</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>75</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F03DE6E</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2SK4017</value>
+      <footprint>#MyFootPrints:2SK4017</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NJFET_GDS" description="N-JFET transistor, gate/drain/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F03248C</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F046989</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ATD1602CPB</value>
+      <footprint>#MyFootPrints:ATD1602CPB</footprint>
+      <libsource lib="MyParts" part="ATD1602CPB" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0F6078</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>RTC_DS3231</value>
+      <footprint>#MyFootPrints:RTC_DS3231_Vertical</footprint>
+      <libsource lib="MyParts" part="RTC_DS3231" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0F6328</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F10C208</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>2MS1-T1-B4-VS2-Q-E-S</value>
+      <footprint>#MyFootPrints:Switch_2MST1B4VS2QES</footprint>
+      <libsource lib="Switch" part="SW_DPDT_x2" description="Switch, dual pole double throw, separate symbols"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F107E8B</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F13B95C</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F137350</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>EC12E2420801</value>
+      <footprint>#MyFootPrints:EC12E2420801</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Rotary_Encoder" description="Rotary encoder, dual channel, incremental quadrate outputs"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F130144</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>IRReceiver_OSRB38C9AA</value>
+      <footprint>#MyFootPrints:IRReceiver_OSRB38C9AA</footprint>
+      <libsource lib="MyParts" part="IRReceiver_OSRB38C9AA" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1959CC</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x10">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NJFET_GDS">
+      <description>N-JFET transistor, gate/drain/source</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NJFET_GDS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Rotary_Encoder">
+      <description>Rotary encoder, dual channel, incremental quadrate outputs</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>RotaryEncoder*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">Rotary_Encoder</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+        <pin num="C" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MyParts" part="ATD1602CPB">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATD1602CPB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="SDA" type="passive"/>
+        <pin num="4" name="SCL" type="passive"/>
+        <pin num="5" name="RST" type="passive"/>
+        <pin num="6" name="LEDA" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MyParts" part="IRReceiver_OSRB38C9AA">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IRReceiver_OSRB38C9AA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Out" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MyParts" part="RTC_DS3231">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RTC_DS3231</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="VCC" type="passive"/>
+        <pin num="3" name="SDA" type="passive"/>
+        <pin num="4" name="SCL" type="passive"/>
+        <pin num="5" name="SQW" type="passive"/>
+        <pin num="6" name="32K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DPDT_x2">
+      <description>Switch, dual pole double throw, separate symbols</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW*DPDT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DPDT_x2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="MyParts">
+      <uri>D:/Users/Hideki/Documents/Kicad/MyParts/MyParts.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="U1" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="P3" pin="4"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="P1" pin="7"/>
+      <node ref="U3" pin="2"/>
+      <node ref="SW2" pin="C"/>
+      <node ref="R5" pin="2"/>
+      <node ref="P1" pin="6"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="3" name="+5V">
+      <node ref="D1" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="R3" pin="1"/>
+      <node ref="P1" pin="5"/>
+      <node ref="R4" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="4" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="5" name="/A4(SDA)">
+      <node ref="U1" pin="3"/>
+      <node ref="U2" pin="3"/>
+      <node ref="P2" pin="5"/>
+    </net>
+    <net code="6" name="/A5(SCL)">
+      <node ref="P2" pin="6"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="7" name="/4">
+      <node ref="R5" pin="1"/>
+      <node ref="P4" pin="4"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="8" name="Net-(SW1-Pad3)">
+      <node ref="SW1" pin="3"/>
+    </net>
+    <net code="9" name="/6(**)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="P4" pin="2"/>
+    </net>
+    <net code="10" name="+3V3">
+      <node ref="U1" pin="1"/>
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="11" name="/Reset">
+      <node ref="U1" pin="5"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="12" name="/5(**)">
+      <node ref="P4" pin="3"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="13" name="/7">
+      <node ref="P4" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="14" name="/IOREF">
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="15" name="/A5">
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="16" name="/2">
+      <node ref="P4" pin="6"/>
+      <node ref="SW2" pin="A"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="17" name="/3(**)">
+      <node ref="R4" pin="2"/>
+      <node ref="SW2" pin="B"/>
+      <node ref="P4" pin="5"/>
+    </net>
+    <net code="18" name="/Vin">
+      <node ref="P1" pin="8"/>
+    </net>
+    <net code="19" name="/A0">
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="20" name="/A1">
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="21" name="/A2">
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="22" name="/A3">
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="23" name="/1(Tx)">
+      <node ref="P4" pin="7"/>
+    </net>
+    <net code="24" name="/0(Rx)">
+      <node ref="P4" pin="8"/>
+    </net>
+    <net code="25" name="Net-(P1-Pad1)">
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="26" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="27" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="28" name="/AREF">
+      <node ref="P3" pin="3"/>
+    </net>
+    <net code="29" name="/8">
+      <node ref="P3" pin="10"/>
+    </net>
+    <net code="30" name="/A4">
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="31" name="/13(SCK)">
+      <node ref="P3" pin="5"/>
+    </net>
+    <net code="32" name="/12(MISO)">
+      <node ref="P3" pin="6"/>
+    </net>
+    <net code="33" name="/11(**/MOSI)">
+      <node ref="P3" pin="7"/>
+    </net>
+    <net code="34" name="/10(**/SS)">
+      <node ref="P3" pin="8"/>
+    </net>
+    <net code="35" name="/9(**)">
+      <node ref="P3" pin="9"/>
+    </net>
+  </nets>
+</export>
